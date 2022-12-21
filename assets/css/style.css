@@ -2,8 +2,19 @@
 
 body{
     font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
+    background-image: linear-gradient(hsl(273, 75%, 66%) 20%, hsl(240, 73%, 65%) 90%);
 }
 h1{
     font-size: 3em;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: #FFF;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
 }
