@@ -1,14 +1,14 @@
 const itemDT = document.querySelectorAll('dt')
 const itemDD = document.querySelectorAll('dd')
 
-itemDT.forEach((item)=>{
+itemDT.forEach((item, index)=>{
     item.addEventListener('click', ()=>{
         item.classList.toggle('active')
-        vinculaDD()
+        vinculaDD(index)
     })
 })
 
-function vinculaDD(){
+function vinculaDD(index){
     itemDD.forEach((item)=>{
         item.classList.toggle('ativo')
     })

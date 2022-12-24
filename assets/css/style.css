@@ -26,6 +26,14 @@ h1{
 .content{
     width: 70%;
 }
+.figure{
+    display: table;
+}
+.imagem1{
+    background-color: aqua;
+    justify-items: center;
+}
+
 dt{
     margin-bottom: 10px;
     color: hsl(237, 12%, 33%);
