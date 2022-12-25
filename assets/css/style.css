@@ -5,6 +5,7 @@ body{
     font-size: 18px;
     background-image: linear-gradient(hsl(273, 75%, 66%) 20%, hsl(240, 73%, 65%) 90%);
     height: 100vh;
+    width: 100vw;
 }
 
 h1{
@@ -16,12 +17,16 @@ h1{
 }
 .wrapper{
     background-color: #FFF;
-    width: 80%;
+    width: 920px;
+    height: 509px;
     margin: 0 auto;
     border-radius: 20px;
     padding: 20px;
     display: flex;
     align-items: center;
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
 }
 .content{
     width: 70%;
@@ -30,8 +35,14 @@ h1{
     width: 50%;
 }
 .imagem1{
-    background-color: aqua;
     justify-items: center;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+}
+.imagem2{
+    position: relative;
+    left: -80px;
 }
 
 dt{
