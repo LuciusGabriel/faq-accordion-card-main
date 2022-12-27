@@ -46,8 +46,12 @@ h1{
 }
 
 dt{
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     color: hsl(237, 12%, 33%);
+}
+dt:hover{
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
 }
 dt.active{
     color: hsl(238, 29%, 16%);
@@ -55,10 +59,9 @@ dt.active{
 }
 
 dd{
-    display:none;
+    display: none;
     color: hsl(240, 6%, 50%);
 }
 dd.ativo{
     display: inline;
-    margin-bottom: 20px;
 }
