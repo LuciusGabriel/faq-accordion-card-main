@@ -2,6 +2,8 @@
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
+[Deploy](https://faq-accordion-card-main-six-tau.vercel.app/)
+
 ## Seja Bem Vindo! 👋
 
 Este repositório tem por finalidade apresentar a resolução do desafio proposto pelo site Frontend Mentor.
